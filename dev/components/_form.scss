@@ -1,0 +1,47 @@
+
+@use "../variables";
+
+form {
+	display: block;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+option,
+select,
+textarea[type="text"],
+textarea {
+	font-family: Poppins;
+	letter-spacing: .6px;
+	display: inline-block;
+	width: 100%;
+	border: 0;
+	border: 1px solid $gray;
+	margin: 5px 0;
+	box-sizing: border-box;
+	padding: 10px;
+	background: transparent;
+	&:placeholder {
+		color: $gray;
+	}
+	&:hover, &:focus {
+		border-color: $dark;
+		outline: 0;
+		color: $dark;
+	}
+	&:focus {
+		background: lighten($light, 1%);
+	}
+}
+
+textarea {
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 150px;
+}

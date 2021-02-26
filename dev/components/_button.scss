@@ -1,0 +1,40 @@
+
+@use "../variables";
+@import "../mixins/public";
+
+// Default button
+button, .btn {
+	@include btn();
+}
+
+.btn-succes {
+	@include btn($succes, $white, $succes);
+}
+
+.btn-danger {
+	@include btn($danger, $white, $danger);
+}
+
+.btn-warning {
+	@include btn($warning, $white, $warning);
+}
+
+.btn-light {
+	@include btn($light, $dark, $light);
+}
+
+.btn-dark {
+	@include btn($dark, $white, $dark);
+}
+
+.btn-gray {
+	@include btn($gray, $white, $gray);
+}
+
+.btn-white {
+	@include btn($white, $black, $white);
+}
+
+.btn-black {
+	@include btn($black, $white, $black);
+}

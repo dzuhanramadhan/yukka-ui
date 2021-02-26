@@ -1,0 +1,25 @@
+
+@use '../variables';
+
+.primary { color: $primary; }
+.secondary { color: $secondary; }
+.succes { color: $succes; }
+.danger { color: $danger; }
+.warning { color: $warning; }
+.light { color: $light; }
+.dark { color: $dark; }
+.gray { color: $gray; }
+.white { color: $white; }
+.black { color: $black; }
+
+// Color: Background
+.bg-primary { background-color: $primary; }
+.bg-secondary { background-color: $secondary; }
+.bg-succes { background-color: $succes; }
+.bg-danger { background-color: $danger; }
+.bg-warning { background-color: $warning; }
+.bg-light { background-color: $light; }
+.bg-dark { background-color: $dark; }
+.bg-gray { background-color: $gray; }
+.bg-white { background-color: $white; }
+.bg-black { background-color: $black; }

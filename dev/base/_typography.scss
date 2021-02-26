@@ -1,0 +1,48 @@
+
+// Sherif
+// @font-face {
+// 	font-family: Lora;
+// 	src: url('../../../../media/fonts/Sherif/Lora/Lora-Bold.ttf;Lora-BoldItalic.ttf;Lora-Italic.ttf;Lora-Medium.ttf;Lora-Mediumitalic.ttf;Lora-Regular.ttf;Lora-SEmiBold.ttf;Lora-SemiBoldItalic.ttf:');
+// }
+// Sans Sherif
+@font-face {
+	font-family: Poppins;
+	src: url('../../../../media/fonts/SansSherif/Poppins/.ttf');
+}
+// Monospace
+@font-face {
+	font-family: Source Code Pro;
+	src: url('../../../../media/fonts/Monospace/SourceCodePro/.ttf');
+}
+// Handwritting
+@font-face {
+	font-family: Satisfy;
+	src: url('../../../../media/fonts/Handwritting/Satisfy/.ttf');
+}
+// Display
+@font-face {
+	font-family: BebasNeue;
+	src: url('../../../../media/fonts/Display/BebasNeue/.ttf');
+}
+
+// Heading
+h1, h2, h3, h4, h5, h6 {
+	font-family: Poppins, sans-sherif;
+	font-weight: 500;
+	letter-spacing: .6px;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+	line-height: 1.6;
+	margin: 0;
+}
+
+p, a {
+	font-size: .8rem;
+}
+
+h1 { font-size: 5rem; }
+h2 { font-size: 4rem; }
+h3 { font-size: 3.1rem; }
+h4 { font-size: 2.3rem; }
+h5 { font-size: 1.6rem; }
+h6 { font-size: 1rem; }

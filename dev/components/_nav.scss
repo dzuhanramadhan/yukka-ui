@@ -1,0 +1,15 @@
+
+@use '../variables';
+@import '../mixins/public';
+
+header {
+	@include navbar();
+	border-bottom: 1px solid $dark;
+	margin-bottom: 25px;
+}
+
+footer {
+	@include navbar();
+	border-top: 1px solid $dark;
+	margin-top: 25px;
+}

@@ -1,0 +1,110 @@
+
+// Globals Variables
+
+// Color: Theme
+$theme-color: (
+	'primary':#548BDE,
+	'secondary':#DAE6F8,
+	'succes':#5DDE54,
+	'danger':#F05746,
+	'warning':#FFEB51,
+	'light':#FAFAFA,
+	'dark':#2B2B2B,
+	'gray':#BEBEBE,
+	'white':#FFFFFF,
+	'black':#000000,
+	);
+
+$primary: map-get($theme-color, 'primary') !default;
+$secondary: map-get($theme-color, 'secondary') !default;
+$succes: map-get($theme-color, 'succes') !default;
+$danger: map-get($theme-color, 'danger') !default;
+$warning: map-get($theme-color, 'warning') !default;
+$light: map-get($theme-color, 'light') !default;
+$dark: map-get($theme-color, 'dark') !default;
+$gray: map-get($theme-color, 'gray') !default;
+$white: map-get($theme-color, 'white') !default;
+$black: map-get($theme-color, 'black') !default;
+
+
+
+
+
+// Display: Flex
+@mixin flex() {
+	display: -webkit-box !important;
+	display: -ms-flexbox !important;
+	display: -webkit-flex !important;
+	display: flex !important;
+}
+
+
+
+
+
+// Margin & Padding
+$mp: (
+	'sm':'15px',					// Smal
+	'md':'25px',					// Medium
+	'l':'35px',						// Large
+	'xl':'45px',					// Extra Large
+	'xxl':'55px',					// Extra Extra Large
+	'xxxl':'65px',				// Extra Extra Extra Large
+	);
+
+$mp-sm: map-get($mp, 'sm') !default;
+$mp-md: map-get($mp, 'md') !default;
+$mp-l: map-get($mp, 'l') !default;
+$mp-xl: map-get($mp, 'xl') !default;
+$mp-xxl: map-get($mp, 'xxl') !default;
+$mp-xxxl: map-get($mp, 'xxxl') !default;
+
+// Default
+@mixin mp($default: 0) {
+	margin: $default;
+	padding: $default;
+}
+// SM
+@mixin mp-sm($default: $mp-sm) {
+	margin: $default;
+	padding: $default;
+}
+// MD
+@mixin mp-md($default: $mp-md) {
+	margin: $default;
+	padding: $default;
+}
+// L
+@mixin mp-l($default: $mp-l) {
+	margin: $default;
+	padding: $default;
+}
+// XL
+@mixin mp-xl($default: $mp-xl) {
+	margin: $default;
+	padding: $default;
+}
+// XXL
+@mixin mp-xxl($default: $mp-xxl) {
+	margin: $default;
+	padding: $default;
+}
+// XXXL
+@mixin mp-xxxl($default: $mp-xxxl) {
+	margin: $default;
+	padding: $default;
+}
+
+
+
+
+
+// Breakpoint
+$bp-min-mobile: "min-width: 450px";
+$bp-max-mobile: "max-width: 785px";
+$bp-min-tablet: "min-width: 786px";
+$bp-max-tablet: "max-width: 968px";
+$bp-min-laptop: "min-width: 980px";
+$bp-max-laptop: "max-width: 1120px";
+$bp-min-monitor: "min-width: 1125px";
+$bp-max-monitor: "max-width: 1300px";

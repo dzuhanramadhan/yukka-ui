@@ -1,0 +1,7 @@
+
+@use '../variables';
+// List
+ul {
+	@include mp();
+	@include flex();
+}

@@ -1,0 +1,33 @@
+/*
+ * Yukka UI is a simple & clean CSS framework component.
+ * Yukka UI focuses on CSS components and 100% doesn't use JavaScript.
+ * By not using JavaScript, Yukka is suitable for small-scale websites or
+ * those that don't need a lot of functionality for websites.
+ * Note!
+ * You are allowed to use, modify and distribute our components.
+ * And You are not permitted to sell our original components.
+ * Yukka UI under "Open-Source MIT License"
+**/
+
+// Variables
+@import "variables";
+
+// mixins
+@import "mixins/public";
+@import "mixins/private";
+
+// Base
+@import "base/base";
+@import "base/color";
+@import "base/typography";
+
+// Component
+@import "components/button";
+@import "components/form";
+@import "components/hero";
+@import "components/list";
+@import "components/nav";
+
+
+// Utilities
+@import "utilities/grid";
