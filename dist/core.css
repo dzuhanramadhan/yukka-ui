@@ -455,6 +455,12 @@ textarea {
   width: 100%;
 }
 
+.hero-full {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
 @use '../variables';
 ul {
   margin: 0;
