@@ -12,7 +12,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@use "../variables";
 @use '../variables';
+* {
+  word-wrap: normal;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -36,8 +41,8 @@ hr {
 }
 
 a {
-  color: #919191;
-  text-decoration: none;
+  color: #787878;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -148,8 +153,8 @@ code {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Poppins, sans-sherif;
-  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
   letter-spacing: .6px;
 }
 
@@ -159,7 +164,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 p, a {
-  font-size: .8rem;
+  font-family: Poppins, sans-serif;
+  font-size: .9rem;
 }
 
 h1 {
@@ -186,6 +192,7 @@ h6 {
   font-size: 1rem;
 }
 
+@use "../variables";
 @use "../variables";
 button, .btn {
   padding: 7px 14px;
@@ -444,6 +451,7 @@ textarea {
   height: 100vh;
   padding: 50px 0;
   display: block;
+  box-sizing: border-box;
 }
 
 @use '../variables';
@@ -457,6 +465,7 @@ ul {
 }
 
 @use '../variables';
+@use "../variables";
 header {
   padding: 15px 0;
   letter-spacing: 1px;
@@ -492,6 +501,10 @@ header nav ul li:last-child {
   margin-right: 0;
 }
 
+header nav ul li a {
+  text-decoration: none !important;
+}
+
 header nav ul li a:hover {
   text-decoration: none !important;
 }
@@ -500,6 +513,10 @@ header nav div.contact, header nav div.social-media {
   box-sizing: border-box;
   margin: auto;
   margin-right: 0;
+}
+
+header nav div.contact a, header nav div.social-media a {
+  text-decoration: none !important;
 }
 
 header nav div.contact a:hover, header nav div.social-media a:hover {
@@ -541,6 +558,10 @@ footer nav ul li:last-child {
   margin-right: 0;
 }
 
+footer nav ul li a {
+  text-decoration: none !important;
+}
+
 footer nav ul li a:hover {
   text-decoration: none !important;
 }
@@ -551,8 +572,16 @@ footer nav div.contact, footer nav div.social-media {
   margin-right: 0;
 }
 
+footer nav div.contact a, footer nav div.social-media a {
+  text-decoration: none !important;
+}
+
 footer nav div.contact a:hover, footer nav div.social-media a:hover {
   text-decoration: none !important;
+}
+
+footer nav ul {
+  flex-wrap: wrap;
 }
 
 @use "../variables";

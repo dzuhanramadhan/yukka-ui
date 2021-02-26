@@ -1,4 +1,6 @@
 
+@use "../variables";
+
 // Navbar
 @mixin navbar() {
 	padding: 15px 0;
@@ -16,6 +18,7 @@
 					margin-right: 0;
 				}
 				a {
+					text-decoration: none !important;
 					&:hover {
 						text-decoration: none !important;
 					}
@@ -27,6 +30,7 @@
 			margin: auto;
 			margin-right: 0;
 			a {
+				text-decoration: none !important;
 				&:hover {
 					text-decoration: none !important;
 				}

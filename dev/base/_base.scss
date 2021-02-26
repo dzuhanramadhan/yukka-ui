@@ -2,6 +2,10 @@
 @use '../variables';
 
 // Base
+* {
+	word-wrap: normal;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -23,8 +27,8 @@ hr {
 }
 
 a {
-	color: lighten($dark, 40%);
-	text-decoration: none;
+	color: lighten($dark, 30%);
+	text-decoration: underline;
 	&:hover {
 		color: $dark;
 		text-decoration: underline;
