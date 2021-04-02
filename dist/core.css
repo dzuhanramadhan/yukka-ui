@@ -535,7 +535,6 @@ ul {
 header {
   padding: 15px 0;
   letter-spacing: 1px;
-  margin-bottom: 25px;
 }
 
 /* line 8, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
@@ -597,16 +596,15 @@ header nav div.contact a:hover, header nav div.social-media a:hover {
   text-decoration: none !important;
 }
 
-/* line 10, ../../../Project/yukood/public/github/yukood-ui/dev/components/_nav.scss */
+/* line 9, ../../../Project/yukood/public/github/yukood-ui/dev/components/_nav.scss */
 header nav ul li {
   margin: auto 30px auto 0;
 }
 
-/* line 18, ../../../Project/yukood/public/github/yukood-ui/dev/components/_nav.scss */
+/* line 17, ../../../Project/yukood/public/github/yukood-ui/dev/components/_nav.scss */
 footer {
   padding: 15px 0;
   letter-spacing: 1px;
-  margin-top: 25px;
 }
 
 /* line 8, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
@@ -668,7 +666,7 @@ footer nav div.contact a:hover, footer nav div.social-media a:hover {
   text-decoration: none !important;
 }
 
-/* line 22, ../../../Project/yukood/public/github/yukood-ui/dev/components/_nav.scss */
+/* line 20, ../../../Project/yukood/public/github/yukood-ui/dev/components/_nav.scss */
 footer nav ul {
   margin-top: 0;
   flex-direction: column;
