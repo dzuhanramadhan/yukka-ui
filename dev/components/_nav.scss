@@ -4,16 +4,24 @@
 
 header {
 	@include navbar();
-	border-bottom: 1px solid $dark;
 	margin-bottom: 25px;
+	nav {
+		ul {
+			li {
+				margin: auto 30px auto 0;
+			}
+		}
+	}
+
 }
 
 footer {
 	@include navbar();
-	border-top: 1px solid $dark;
 	margin-top: 25px;
 	nav {
 		ul {
+			margin-top: 0;
+			flex-direction: column;
 			flex-wrap: wrap;
 		}
 	}
