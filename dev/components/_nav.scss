@@ -4,7 +4,6 @@
 
 header {
 	@include navbar();
-	margin-bottom: 25px;
 	nav {
 		ul {
 			li {
@@ -17,7 +16,6 @@ header {
 
 footer {
 	@include navbar();
-	margin-top: 25px;
 	nav {
 		ul {
 			margin-top: 0;
