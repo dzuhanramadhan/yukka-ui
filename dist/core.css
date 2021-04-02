@@ -14,24 +14,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @use "../variables";
 @use '../variables';
+/* line 5, ../../../Project/yukood/public/github/yukood-ui/dev/base/_base.scss */
 * {
   word-wrap: normal;
 }
 
+/* line 9, ../../../Project/yukood/public/github/yukood-ui/dev/base/_base.scss */
 html {
   scroll-behavior: smooth;
 }
 
+/* line 12, ../../../Project/yukood/public/github/yukood-ui/dev/base/_base.scss */
 body, html {
   margin: 0;
   padding: 0;
 }
 
+/* line 16, ../../../Project/yukood/public/github/yukood-ui/dev/base/_base.scss */
 .container {
   width: 70vw;
   margin: 0 auto;
 }
 
+/* line 21, ../../../Project/yukood/public/github/yukood-ui/dev/base/_base.scss */
 hr {
   margin: 35px 0;
   height: 1px;
@@ -40,16 +45,19 @@ hr {
   border-style: none;
 }
 
+/* line 29, ../../../Project/yukood/public/github/yukood-ui/dev/base/_base.scss */
 a {
   color: #787878;
   text-decoration: underline;
 }
 
+/* line 32, ../../../Project/yukood/public/github/yukood-ui/dev/base/_base.scss */
 a:hover {
   color: #2B2B2B;
   text-decoration: underline;
 }
 
+/* line 38, ../../../Project/yukood/public/github/yukood-ui/dev/base/_base.scss */
 pre > code {
   display: block;
   width: 100%;
@@ -59,6 +67,7 @@ pre > code {
   overflow: scroll;
 }
 
+/* line 47, ../../../Project/yukood/public/github/yukood-ui/dev/base/_base.scss */
 code {
   background: #e4e4e4;
   padding: 5px 10px;
@@ -72,128 +81,158 @@ code {
 }
 
 @use '../variables';
+/* line 4, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .primary {
   color: #548BDE;
 }
 
+/* line 5, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .secondary {
   color: #DAE6F8;
 }
 
+/* line 6, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .succes {
   color: #5DDE54;
 }
 
+/* line 7, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .danger {
   color: #F05746;
 }
 
+/* line 8, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .warning {
   color: #FFEB51;
 }
 
+/* line 9, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .light {
   color: #FAFAFA;
 }
 
+/* line 10, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .dark {
   color: #2B2B2B;
 }
 
+/* line 11, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .gray {
   color: #BEBEBE;
 }
 
+/* line 12, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .white {
   color: #FFFFFF;
 }
 
+/* line 13, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .black {
   color: #000000;
 }
 
+/* line 16, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .bg-primary {
   background-color: #548BDE;
 }
 
+/* line 17, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .bg-secondary {
   background-color: #DAE6F8;
 }
 
+/* line 18, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .bg-succes {
   background-color: #5DDE54;
 }
 
+/* line 19, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .bg-danger {
   background-color: #F05746;
 }
 
+/* line 20, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .bg-warning {
   background-color: #FFEB51;
 }
 
+/* line 21, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .bg-light {
   background-color: #FAFAFA;
 }
 
+/* line 22, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .bg-dark {
   background-color: #2B2B2B;
 }
 
+/* line 23, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .bg-gray {
   background-color: #BEBEBE;
 }
 
+/* line 24, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .bg-white {
   background-color: #FFFFFF;
 }
 
+/* line 25, ../../../Project/yukood/public/github/yukood-ui/dev/base/_color.scss */
 .bg-black {
   background-color: #000000;
 }
 
+/* line 15, ../../../Project/yukood/public/github/yukood-ui/dev/base/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: Poppins, sans-serif;
   font-weight: 400;
   letter-spacing: .6px;
 }
 
+/* line 20, ../../../Project/yukood/public/github/yukood-ui/dev/base/_typography.scss */
 h1, h2, h3, h4, h5, h6, p, a {
   line-height: 1.6;
   margin: 0;
 }
 
+/* line 25, ../../../Project/yukood/public/github/yukood-ui/dev/base/_typography.scss */
 p, a {
   font-family: Poppins, sans-serif;
   font-size: .9rem;
 }
 
+/* line 30, ../../../Project/yukood/public/github/yukood-ui/dev/base/_typography.scss */
 h1 {
   font-size: 5rem;
 }
 
+/* line 31, ../../../Project/yukood/public/github/yukood-ui/dev/base/_typography.scss */
 h2 {
   font-size: 4rem;
 }
 
+/* line 32, ../../../Project/yukood/public/github/yukood-ui/dev/base/_typography.scss */
 h3 {
   font-size: 3.1rem;
 }
 
+/* line 33, ../../../Project/yukood/public/github/yukood-ui/dev/base/_typography.scss */
 h4 {
   font-size: 2.3rem;
 }
 
+/* line 34, ../../../Project/yukood/public/github/yukood-ui/dev/base/_typography.scss */
 h5 {
   font-size: 1.6rem;
 }
 
+/* line 35, ../../../Project/yukood/public/github/yukood-ui/dev/base/_typography.scss */
 h6 {
   font-size: 1rem;
 }
 
 @use "../variables";
 @use "../variables";
+/* line 6, ../../../Project/yukood/public/github/yukood-ui/dev/components/_button.scss */
 button, .btn {
   padding: 7px 14px;
   display: inline-block;
@@ -205,12 +244,14 @@ button, .btn {
   border-radius: 0;
 }
 
+/* line 52, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   background: #000000;
   color: #FFFFFF;
   border-radius: 0;
 }
 
+/* line 10, ../../../Project/yukood/public/github/yukood-ui/dev/components/_button.scss */
 .btn-succes {
   padding: 7px 14px;
   display: inline-block;
@@ -222,12 +263,14 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border-radius: 0;
 }
 
+/* line 52, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 .btn-succes:hover, .btn-succes:focus, .btn-succes:active {
   background: #FFFFFF;
   color: #5DDE54;
   border-radius: 0;
 }
 
+/* line 14, ../../../Project/yukood/public/github/yukood-ui/dev/components/_button.scss */
 .btn-danger {
   padding: 7px 14px;
   display: inline-block;
@@ -239,12 +282,14 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border-radius: 0;
 }
 
+/* line 52, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
   background: #FFFFFF;
   color: #F05746;
   border-radius: 0;
 }
 
+/* line 18, ../../../Project/yukood/public/github/yukood-ui/dev/components/_button.scss */
 .btn-warning {
   padding: 7px 14px;
   display: inline-block;
@@ -256,12 +301,14 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border-radius: 0;
 }
 
+/* line 52, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
   background: #FFFFFF;
   color: #FFEB51;
   border-radius: 0;
 }
 
+/* line 22, ../../../Project/yukood/public/github/yukood-ui/dev/components/_button.scss */
 .btn-light {
   padding: 7px 14px;
   display: inline-block;
@@ -273,12 +320,14 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border-radius: 0;
 }
 
+/* line 52, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 .btn-light:hover, .btn-light:focus, .btn-light:active {
   background: #2B2B2B;
   color: #FAFAFA;
   border-radius: 0;
 }
 
+/* line 26, ../../../Project/yukood/public/github/yukood-ui/dev/components/_button.scss */
 .btn-dark {
   padding: 7px 14px;
   display: inline-block;
@@ -290,12 +339,14 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border-radius: 0;
 }
 
+/* line 52, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
   background: #FFFFFF;
   color: #2B2B2B;
   border-radius: 0;
 }
 
+/* line 30, ../../../Project/yukood/public/github/yukood-ui/dev/components/_button.scss */
 .btn-gray {
   padding: 7px 14px;
   display: inline-block;
@@ -307,12 +358,14 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border-radius: 0;
 }
 
+/* line 52, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 .btn-gray:hover, .btn-gray:focus, .btn-gray:active {
   background: #FFFFFF;
   color: #BEBEBE;
   border-radius: 0;
 }
 
+/* line 34, ../../../Project/yukood/public/github/yukood-ui/dev/components/_button.scss */
 .btn-white {
   padding: 7px 14px;
   display: inline-block;
@@ -324,12 +377,14 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border-radius: 0;
 }
 
+/* line 52, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 .btn-white:hover, .btn-white:focus, .btn-white:active {
   background: #000000;
   color: #FFFFFF;
   border-radius: 0;
 }
 
+/* line 38, ../../../Project/yukood/public/github/yukood-ui/dev/components/_button.scss */
 .btn-black {
   padding: 7px 14px;
   display: inline-block;
@@ -341,6 +396,7 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border-radius: 0;
 }
 
+/* line 52, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 .btn-black:hover, .btn-black:focus, .btn-black:active {
   background: #FFFFFF;
   color: #000000;
@@ -348,10 +404,12 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
 }
 
 @use "../variables";
+/* line 4, ../../../Project/yukood/public/github/yukood-ui/dev/components/_form.scss */
 form {
   display: block;
 }
 
+/* line 8, ../../../Project/yukood/public/github/yukood-ui/dev/components/_form.scss */
 input[type="text"],
 input[type="password"],
 input[type="number"],
@@ -376,6 +434,7 @@ textarea {
   background: transparent;
 }
 
+/* line 30, ../../../Project/yukood/public/github/yukood-ui/dev/components/_form.scss */
 input[type="text"]:placeholder,
 input[type="password"]:placeholder,
 input[type="number"]:placeholder,
@@ -391,6 +450,7 @@ textarea:placeholder {
   color: #BEBEBE;
 }
 
+/* line 33, ../../../Project/yukood/public/github/yukood-ui/dev/components/_form.scss */
 input[type="text"]:hover, input[type="text"]:focus,
 input[type="password"]:hover,
 input[type="password"]:focus,
@@ -419,6 +479,7 @@ textarea:focus {
   color: #2B2B2B;
 }
 
+/* line 38, ../../../Project/yukood/public/github/yukood-ui/dev/components/_form.scss */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="number"]:focus,
@@ -434,18 +495,21 @@ textarea:focus {
   background: #fdfdfd;
 }
 
+/* line 43, ../../../Project/yukood/public/github/yukood-ui/dev/components/_form.scss */
 textarea {
   max-width: 100%;
   min-width: 100%;
   min-height: 150px;
 }
 
+/* line 2, ../../../Project/yukood/public/github/yukood-ui/dev/components/_hero.scss */
 .hero {
   padding: 50px 0;
   display: block;
   width: 100%;
 }
 
+/* line 8, ../../../Project/yukood/public/github/yukood-ui/dev/components/_hero.scss */
 .hero-full {
   width: 100%;
   height: 100vh;
@@ -455,6 +519,7 @@ textarea {
 }
 
 @use '../variables';
+/* line 4, ../../../Project/yukood/public/github/yukood-ui/dev/components/_list.scss */
 ul {
   margin: 0;
   padding: 0;
@@ -466,13 +531,14 @@ ul {
 
 @use '../variables';
 @use "../variables";
+/* line 5, ../../../Project/yukood/public/github/yukood-ui/dev/components/_nav.scss */
 header {
   padding: 15px 0;
   letter-spacing: 1px;
-  border-bottom: 1px solid #2B2B2B;
   margin-bottom: 25px;
 }
 
+/* line 8, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 header nav {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -480,6 +546,7 @@ header nav {
   display: flex !important;
 }
 
+/* line 10, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 header nav ul {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -488,6 +555,7 @@ header nav ul {
   margin: auto 0;
 }
 
+/* line 13, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 header nav ul li {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -497,39 +565,51 @@ header nav ul li {
   margin-right: 20px;
 }
 
+/* line 17, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 header nav ul li:last-child {
   margin-right: 0;
 }
 
+/* line 20, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 header nav ul li a {
   text-decoration: none !important;
 }
 
+/* line 22, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 header nav ul li a:hover {
   text-decoration: none !important;
 }
 
+/* line 28, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 header nav div.contact, header nav div.social-media {
   box-sizing: border-box;
   margin: auto;
   margin-right: 0;
 }
 
+/* line 32, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 header nav div.contact a, header nav div.social-media a {
   text-decoration: none !important;
 }
 
+/* line 34, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 header nav div.contact a:hover, header nav div.social-media a:hover {
   text-decoration: none !important;
 }
 
+/* line 10, ../../../Project/yukood/public/github/yukood-ui/dev/components/_nav.scss */
+header nav ul li {
+  margin: auto 30px auto 0;
+}
+
+/* line 18, ../../../Project/yukood/public/github/yukood-ui/dev/components/_nav.scss */
 footer {
   padding: 15px 0;
   letter-spacing: 1px;
-  border-top: 1px solid #2B2B2B;
   margin-top: 25px;
 }
 
+/* line 8, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 footer nav {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -537,6 +617,7 @@ footer nav {
   display: flex !important;
 }
 
+/* line 10, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 footer nav ul {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -545,6 +626,7 @@ footer nav ul {
   margin: auto 0;
 }
 
+/* line 13, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 footer nav ul li {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -554,97 +636,123 @@ footer nav ul li {
   margin-right: 20px;
 }
 
+/* line 17, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 footer nav ul li:last-child {
   margin-right: 0;
 }
 
+/* line 20, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 footer nav ul li a {
   text-decoration: none !important;
 }
 
+/* line 22, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 footer nav ul li a:hover {
   text-decoration: none !important;
 }
 
+/* line 28, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 footer nav div.contact, footer nav div.social-media {
   box-sizing: border-box;
   margin: auto;
   margin-right: 0;
 }
 
+/* line 32, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 footer nav div.contact a, footer nav div.social-media a {
   text-decoration: none !important;
 }
 
+/* line 34, ../../../Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss */
 footer nav div.contact a:hover, footer nav div.social-media a:hover {
   text-decoration: none !important;
 }
 
+/* line 22, ../../../Project/yukood/public/github/yukood-ui/dev/components/_nav.scss */
 footer nav ul {
+  margin-top: 0;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
 @use "../variables";
+/* line 4, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .row {
   display: flex;
   grid-gap: 25px;
   flex-wrap: wrap;
 }
 
+/* line 10, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col {
   flex: 1;
 }
 
+/* line 14, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-1 {
   flex: 1;
 }
 
+/* line 18, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-2 {
   flex: 2;
 }
 
+/* line 22, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-3 {
   flex: 3;
 }
 
+/* line 26, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-4 {
   flex: 4;
 }
 
+/* line 30, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-5 {
   flex: 5;
 }
 
+/* line 34, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-6 {
   flex: 6;
 }
 
+/* line 38, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-7 {
   flex: 7;
 }
 
+/* line 42, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-8 {
   flex: 8;
 }
 
+/* line 46, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-9 {
   flex: 9;
 }
 
+/* line 50, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-10 {
   flex: 10;
 }
 
+/* line 54, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-11 {
   flex: 11;
 }
 
+/* line 58, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
 .col-12 {
   flex: 12;
 }
 
 @media screen and (max-width: 785px) {
+  /* line 63, ../../../Project/yukood/public/github/yukood-ui/dev/utilities/_grid.scss */
   .row {
     flex-direction: column;
   }
 }
+
+/*# sourceMappingURL=core.css.map */
