@@ -49,7 +49,9 @@
 	border: 1px solid $border-color;
 	cursor: pointer;
 	border-radius: 0;
+	text-decoration: none;
 	&:hover, &:focus, &:active {
+		text-decoration: none;
 		background: $font-color;
 		color: $background;
 		border-radius: 0;

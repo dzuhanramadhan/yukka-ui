@@ -2,45 +2,41 @@
 
 Version 1.0.0 Alpha under development and added features. We will endeavor to develop Yukka UI into the CSS framework of choice
 
-### Features :
-* Components
-  * Forms
-  * Navbar
-  * Lists
-  * Buttons
-  * Hero images/nav
-* Base
-  * Color
-  * Typography
-* Utilities
-  * Grids
+### Getting Started
 
-Meanwhile, that's all we have developed, and we will try to always develop this framework to make it even better
+There are a couple ways to download Yukood UI :
+
+* [Download the ZIP](https://github.com/yukood/yukood-ui/archive/refs/heads/main.zip) or click "CODE" button -> click "Download ZIP"
+* Clone the repo ```git clone https://github.com/yukood/yukood-ui.git``` (Note: this is under main branch(Stable). You can use the dev branch for the latest code, but it's not stable)
+
+### Map files and folders
+
+You can see the list of files that you get as a css file which includes all the components from the dev folder.
 
 ```
 Yukood-UI/
 ├── dev/
-│	├── base/
-│	│	├── base.scss
-│	│	├── color.scss
-│	│	└── typography.scss
-│	├── components/
-│	│	├── button.scss
-│	│	├── form.scss
-│	│	├── hero.scss
-│	│	├── list.scss
-│	│	└── nav.scss
-│	├── mixins/
-│	│	├── private.scss
-│	│	└── public.scss
-│	├── utilities/
-│	│	└── grid.scss
-│	├── variables.scss
-│	└── core.scss
+│   ├── base/
+│   │   ├── base.scss
+│   │   ├── color.scss
+│   │   └── typography.scss
+│   ├── components/
+│   │   ├── button.scss
+│   │   ├── form.scss
+│   │   ├── hero.scss
+│   │   ├── list.scss
+│   │   └── nav.scss
+│   ├── mixins/
+│   │   ├── private.scss
+│   │   └── public.scss
+│   ├── utilities/
+│   │   └── grid.scss
+│   ├── variables.scss
+│   └── core.scss
 ├── dist/
-│		└── core.css
+│   └── core.css
 ├── image/
-│		└── logo.png
+│   └── logo.png
 ├── CHANGELOG.md
 ├── index.html
 ├── LICENSE
