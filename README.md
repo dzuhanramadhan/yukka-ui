@@ -16,27 +16,27 @@ You can see the list of files that you get as a css file which includes all the 
 ```
 Yukood-UI/
 ├── dev/
-│     ├── base/
-│     │     ├── base.scss
-│     │     ├── color.scss
-│     │     └── typography.scss
-│     ├── components/
-│     │     ├── button.scss
-│     │     ├── form.scss
-│     │     ├── hero.scss
-│     │     ├── list.scss
-│     │     └── nav.scss
-│     ├── mixins/
-│     │     ├── private.scss
-│     │     └── public.scss
-│     ├── utilities/
-│     │     └── grid.scss
-│     ├── variables.scss
-│     └── core.scss
+│   ├── base/
+│   │   ├── base.scss
+│   │   ├── color.scss
+│   │   └── typography.scss
+│   ├── components/
+│   │   ├── button.scss
+│   │   ├── form.scss
+│   │   ├── hero.scss
+│   │   ├── list.scss
+│   │   └── nav.scss
+│   ├── mixins/
+│   │   ├── private.scss
+│   │   └── public.scss
+│   ├── utilities/
+│   │   └── grid.scss
+│   ├── variables.scss
+│   └── core.scss
 ├── dist/
-│     └── core.css
+│   └── core.css
 ├── image/
-│     └── logo.png
+│   └── logo.png
 ├── CHANGELOG.md
 ├── index.html
 ├── LICENSE
