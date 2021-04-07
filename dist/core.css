@@ -203,11 +203,32 @@ button, .btn {
   border: 1px solid #000000;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 }
 
 button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
+  text-decoration: none;
   background: #000000;
   color: #FFFFFF;
+  border-radius: 0;
+}
+
+.btn-primary {
+  padding: 7px 14px;
+  display: inline-block;
+  background: #548BDE;
+  color: #FFFFFF;
+  letter-spacing: .6px;
+  border: 1px solid #548BDE;
+  cursor: pointer;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  text-decoration: none;
+  background: #FFFFFF;
+  color: #548BDE;
   border-radius: 0;
 }
 
@@ -220,9 +241,11 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border: 1px solid #5DDE54;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 }
 
 .btn-succes:hover, .btn-succes:focus, .btn-succes:active {
+  text-decoration: none;
   background: #FFFFFF;
   color: #5DDE54;
   border-radius: 0;
@@ -237,9 +260,11 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border: 1px solid #F05746;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 }
 
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+  text-decoration: none;
   background: #FFFFFF;
   color: #F05746;
   border-radius: 0;
@@ -254,9 +279,11 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border: 1px solid #FFEB51;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 }
 
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
+  text-decoration: none;
   background: #FFFFFF;
   color: #FFEB51;
   border-radius: 0;
@@ -271,9 +298,11 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border: 1px solid #FAFAFA;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 }
 
 .btn-light:hover, .btn-light:focus, .btn-light:active {
+  text-decoration: none;
   background: #2B2B2B;
   color: #FAFAFA;
   border-radius: 0;
@@ -288,9 +317,11 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border: 1px solid #2B2B2B;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 }
 
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+  text-decoration: none;
   background: #FFFFFF;
   color: #2B2B2B;
   border-radius: 0;
@@ -305,9 +336,11 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border: 1px solid #BEBEBE;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 }
 
 .btn-gray:hover, .btn-gray:focus, .btn-gray:active {
+  text-decoration: none;
   background: #FFFFFF;
   color: #BEBEBE;
   border-radius: 0;
@@ -322,9 +355,11 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border: 1px solid #FFFFFF;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 }
 
 .btn-white:hover, .btn-white:focus, .btn-white:active {
+  text-decoration: none;
   background: #000000;
   color: #FFFFFF;
   border-radius: 0;
@@ -339,9 +374,11 @@ button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
   border: 1px solid #000000;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 }
 
 .btn-black:hover, .btn-black:focus, .btn-black:active {
+  text-decoration: none;
   background: #FFFFFF;
   color: #000000;
   border-radius: 0;

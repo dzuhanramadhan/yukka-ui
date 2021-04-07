@@ -7,6 +7,10 @@ button, .btn {
 	@include btn();
 }
 
+.btn-primary {
+	@include btn($primary, $white, $primary);
+}
+
 .btn-succes {
 	@include btn($succes, $white, $succes);
 }
