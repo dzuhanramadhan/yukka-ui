@@ -1,0 +1,11 @@
+
+@use "../variables";
+
+a {
+	color: lighten($dark, 30%);
+	text-decoration: underline;
+	&:hover {
+		color: $dark;
+		text-decoration: underline;
+	}
+}

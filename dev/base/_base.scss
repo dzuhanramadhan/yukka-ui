@@ -1,7 +1,7 @@
 
 @use '../variables';
+@use 'margin';
 
-// Base
 * {
 	word-wrap: normal;
 }
@@ -9,8 +9,10 @@
 html {
 	scroll-behavior: smooth;
 }
+
 body, html {
-	@include mp();
+	margin: 0;
+	padding: 0;
 }
 
 .container {
@@ -18,41 +20,4 @@ body, html {
 	margin: 0 auto;
 }
 
-hr {
-	margin: 35px 0;
-	height: 1px;
-	width: 100%;
-	background: $dark;
-	border-style: none;
-}
-
-a {
-	color: lighten($dark, 30%);
-	text-decoration: underline;
-	&:hover {
-		color: $dark;
-		text-decoration: underline;
-	}
-}
-
-pre > code {
-	display: block;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	border-radius: 5px;
-	overflow: scroll;
-}
-
-code {
-	background: lighten($gray, 15%);
-	padding: 5px 10px;
-	display: inline-block;
-	font-family: Source Code Pro, monospace;
-	border: 1px solid $gray;
-	border-radius: 5px;
-	font-size: 14px;
-	margin: 2.5px;
-	color: darken($gray, 30%);
-}
 

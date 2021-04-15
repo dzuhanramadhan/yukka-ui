@@ -1,0 +1,23 @@
+
+@use "../variables";
+
+pre > code {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+	overflow: scroll;
+}
+
+code {
+	background: lighten($gray, 15%);
+	padding: 5px 10px;
+	display: inline-block;
+	font-family: Source Code Pro, monospace;
+	border: 1px solid $gray;
+	border-radius: 5px;
+	font-size: 14px;
+	margin: 2.5px;
+	color: darken($gray, 30%);
+}

@@ -1,7 +1,14 @@
 
 @use '../variables';
+@use '../base/margin';
+
 // List
 ul {
-	@include mp();
+	margin: 0;
+	padding-left: 25px;
 	@include flex();
+}
+
+li {
+	list-style: circle;
 }

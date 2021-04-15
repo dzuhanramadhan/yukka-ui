@@ -1,0 +1,79 @@
+
+@use "../variables";
+
+// Margin
+// ========================================
+// Margin Default
+@mixin margin($default: 0) {
+	margin: $default;
+}
+// Margin SM
+@mixin margin-sm($default: $mp-sm) {
+	margin: $default;
+}
+// Margin MD
+@mixin margin-md($default: $mp-md) {
+	margin: $default;
+}
+// Margin L
+@mixin margin-l($default: $mp-l) {
+	margin: $default;
+}
+// Margin XL
+@mixin margin-xl($default: $mp-xl) {
+	margin: $default;
+}
+// Margin XXL
+@mixin margin-xxl($default: $mp-xxl) {
+	margin: $default;
+}
+// Margin XXXL
+@mixin margin-xxxl($default: $mp-xxxl) {
+	margin: $default;
+}
+
+// Padding
+// ========================================
+// Padding Default
+@mixin padding($default: 0) {
+	padding: $default;
+}
+// Padding SM
+@mixin padding-sm($default: $mp-sm) {
+	padding: $default;
+}
+// Padding MD
+@mixin padding-md($default: $mp-md) {
+	padding: $default;
+}
+// Padding L
+@mixin padding-l($default: $mp-l) {
+	padding: $default;
+}
+// Padding XL
+@mixin padding-xl($default: $mp-xl) {
+	padding: $default;
+}
+// Padding XXL
+@mixin padding-xxl($default: $mp-xxl) {
+	padding: $default;
+}
+// Padding XXXL
+@mixin padding-xxxl($default: $mp-xxxl) {
+	padding: $default;
+}
+
+
+
+hr {
+	margin: 35px 0;
+	height: 1px;
+	width: 100%;
+	background: $dark;
+	border-style: none;
+}
+
+br {
+	margin: 10px 0;
+	padding: 0;
+}

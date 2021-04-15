@@ -1,6 +1,23 @@
 
 @use "../variables";
-@import "../mixins/public";
+
+@mixin btn($background: $white, $font-color: $black, $border-color: $black) {
+	padding: 7px 14px;
+	display: inline-block;
+	background: $background;
+	color: $font-color;
+	letter-spacing: .6px;
+	border: 1px solid $border-color;
+	cursor: pointer;
+	border-radius: 0;
+	text-decoration: none;
+	&:hover, &:focus, &:active {
+		text-decoration: none;
+		background: $font-color;
+		color: $background;
+		border-radius: 0;
+	}
+}
 
 // Default button
 button, .btn {

@@ -1,7 +1,6 @@
 
-// Globals Variables
-
 // Color: Theme
+// ========================================
 $theme-color: (
 	'primary':#548BDE,
 	'secondary':#DAE6F8,
@@ -26,11 +25,8 @@ $gray: map-get($theme-color, 'gray') !default;
 $white: map-get($theme-color, 'white') !default;
 $black: map-get($theme-color, 'black') !default;
 
-
-
-
-
 // Display: Flex
+// ========================================
 @mixin flex() {
 	display: -webkit-box !important;
 	display: -ms-flexbox !important;
@@ -38,18 +34,15 @@ $black: map-get($theme-color, 'black') !default;
 	display: flex !important;
 }
 
-
-
-
-
-// Margin & Padding
+// Margin & Padding (mp)
+// ========================================
 $mp: (
 	'sm':'15px',					// Smal
 	'md':'25px',					// Medium
 	'l':'35px',						// Large
 	'xl':'45px',					// Extra Large
 	'xxl':'55px',					// Extra Extra Large
-	'xxxl':'65px',				// Extra Extra Extra Large
+	'xxxl':'65px',					// Extra Extra Extra Large
 	);
 
 $mp-sm: map-get($mp, 'sm') !default;
@@ -59,47 +52,8 @@ $mp-xl: map-get($mp, 'xl') !default;
 $mp-xxl: map-get($mp, 'xxl') !default;
 $mp-xxxl: map-get($mp, 'xxxl') !default;
 
-// Default
-@mixin mp($default: 0) {
-	margin: $default;
-	padding: $default;
-}
-// SM
-@mixin mp-sm($default: $mp-sm) {
-	margin: $default;
-	padding: $default;
-}
-// MD
-@mixin mp-md($default: $mp-md) {
-	margin: $default;
-	padding: $default;
-}
-// L
-@mixin mp-l($default: $mp-l) {
-	margin: $default;
-	padding: $default;
-}
-// XL
-@mixin mp-xl($default: $mp-xl) {
-	margin: $default;
-	padding: $default;
-}
-// XXL
-@mixin mp-xxl($default: $mp-xxl) {
-	margin: $default;
-	padding: $default;
-}
-// XXXL
-@mixin mp-xxxl($default: $mp-xxxl) {
-	margin: $default;
-	padding: $default;
-}
-
-
-
-
-
 // Breakpoint
+// ========================================
 $bp-min-mobile: "min-width: 450px";
 $bp-max-mobile: "max-width: 785px";
 $bp-min-tablet: "min-width: 786px";

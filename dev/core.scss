@@ -12,22 +12,18 @@
 // Variables
 @import "variables";
 
-// mixins
-@import "mixins/public";
-@import "mixins/private";
-
 // Base
 @import "base/base";
 @import "base/color";
 @import "base/typography";
+@import "base/grid";
+@import "base/margin";
+@import "base/link";
 
 // Component
 @import "components/button";
 @import "components/form";
 @import "components/hero";
+@import "components/code";
 @import "components/list";
 @import "components/nav";
-
-
-// Utilities
-@import "utilities/grid";

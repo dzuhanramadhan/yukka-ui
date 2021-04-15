@@ -1,0 +1,468 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"phpp",
+				"phpp\t@phpp"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"texta",
+				"text-align\tproperty"
+			],
+			[
+				"cen",
+				"center\talign-items"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"gridar",
+				"grid-area\tproperty"
+			],
+			[
+				"flex",
+				"flex\tproperty"
+			],
+			[
+				"fonhe",
+				"font-weight\tproperty"
+			],
+			[
+				"gridgap",
+				"grid-row-gap\tproperty"
+			],
+			[
+				"gridare",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"transpa",
+				"transparent\tbackground"
+			],
+			[
+				"yukood",
+				"yukood-02"
+			],
+			[
+				"yu",
+				"yukood-02"
+			],
+			[
+				"include",
+				"include\t@include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/Coding/Project/yukood/resources/views/layouts/main.blade.php",
+			"settings":
+			{
+				"buffer_size": 2457,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/base/_margin.scss",
+			"settings":
+			{
+				"buffer_size": 1288,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C# Compile & Run/CSharpSingleFileBuild.sublime-build",
+					""
+				],
+				[
+					"Packages/C# Compile & Run/CSharpSingleFileBuild.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C# Compile & Run/CSharpSingleFileBuild.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 166.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Coding/Project/yukood",
+		"/D/Coding/Project/yukood/resources",
+		"/D/Coding/Project/yukood/resources/views",
+		"/D/Coding/Project/yukood/resources/views/layouts",
+		"/D/Coding/Project/yukood/public/github/yukood-ui",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/base",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/components"
+	],
+	"file_history":
+	[
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/components/_list.scss",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/components/_nav.scss",
+		"/D/Coding/Project/yukood/app/Http/Controllers/PagesController.php",
+		"/D/Downloads/amazium-5.0.0/scss/_base.scss",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/base/_base.scss",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/core.scss",
+		"/D/Coding/Project/yukood/routes/web.php",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/base/_margin.scss",
+		"/D/Downloads/amazium-5.0.0/scss/_buttons.scss",
+		"/D/Coding/Project/yukood/public/index.php",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/_variables.scss",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/components/_code.scss",
+		"/C/Users/dzuhan/Links/Desktop.lnk",
+		"/C/Users/dzuhan/AppData/Roaming/Sublime Text 3/Packages/User/@phpp.sublime-snippet",
+		"/C/Users/dzuhan/AppData/Roaming/Sublime Text 3/Packages/User/@use.sublime-snippet",
+		"/C/Users/dzuhan/AppData/Roaming/Sublime Text 3/Packages/User/use.sublime-snippet",
+		"/D/Coding/Project/yukood/resources/views/layouts/main.blade.php",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/base/_link.scss",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/base/_typography.scss",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/components/_button.scss",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/image/yukood-02.png",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/mixins/_public.scss",
+		"/D/Coding/Project/yukood/resources/views/home.blade.php",
+		"/D/Coding/Project/yukood/resources/views/docs.blade.php",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/README.md",
+		"/D/Coding/Project/yukood/public/resources/sass/core.scss",
+		"/D/Coding/Project/yukood/public/resources/sass/home.scss",
+		"/D/Coding/Project/yukood/README.md",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/.git/COMMIT_EDITMSG",
+		"/D/Coding/Project/yukood/public/resources/css/core.css",
+		"/D/Coding/Project/yukood/vendor/illuminate/collections/Arr.php",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/.gitignore",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/components/_form.scss",
+		"/D/Coding/Project/yukood/LICENSE",
+		"/D/Coding/Project/yukood/public/resources/.gitignore",
+		"/D/Coding/Project/yukood/.git/MERGE_MSG",
+		"/D/Coding/Project/yukood/.gitignore",
+		"/d/coding/project/yukood/public/resources/sass/core.scss",
+		"/D/Coding/Project/yukood/public/github/yukood-ui/dev/base/_color.scss",
+		"/D/Coding/Project/yukood/Procfile",
+		"/C/Users/dzuhan/.ssh/id_rsa.pub",
+		"/C/Users/dzuhan/.gnupg/openpgp-revocs.d/273ED3FE1CB43717CAADC9C55C9FFC8377B168DD.rev",
+		"/C/Users/dzuhan/.gnupg/S.gpg-agent",
+		"/C/Users/dzuhan/.gnupg/S.gpg-agent.browser",
+		"/C/Users/dzuhan/.gnupg/S.gpg-agent.extra",
+		"/C/Users/dzuhan/.gnupg/S.gpg-agent.ssh",
+		"/C/Users/dzuhan/.gnupg/trustdb.gpg",
+		"/C/Users/dzuhan/.gnupg/pubring.kbx~",
+		"/C/Users/dzuhan/.gnupg/pubring.kbx",
+		"/C/Users/dzuhan/.ssh/id_ed25519",
+		"/C/Users/dzuhan/.gnupg/private-keys-v1.d/373C3BDD543EDDCDC9D339FFE26C4D1080206282.key",
+		"/C/Users/dzuhan/.gnupg/private-keys-v1.d/652A17E60B5580398AB01A747E592DA2EA345B78.key",
+		"/C/Users/dzuhan/.ssh/id_rsa",
+		"/C/Bitnami/wampstack-8.0.3-1/php/php.ini",
+		"/D/Coding/Project/yukood/app/Http/Controllers/ExampleController.php",
+		"/C/Program Files/Git/etc/bash.bashrc",
+		"/D/Coding/Project/Website/yukood/Public/index.php",
+		"/C/Program Files (x86)/Vim/vim82/colors/zellner.vim",
+		"/C/Program Files (x86)/Vim/vim82/colors/dracula.vim",
+		"/C/Bitnami/wampstack-8.0.3-1/apache2/conf/httpd.conf",
+		"/C/Bitnami/wampstack-8.0.3-1/apache2/conf/bitnami/bitnami.conf",
+		"/D/Coding/Project/Learn/Languages/CSharp/helloWorld/Program.cs"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"// ",
+			"mixin mp",
+			"mp",
+			"// ",
+			"$margin",
+			"mixin margin",
+			"margin",
+			"mp",
+			"margin",
+			"mp",
+			"p",
+			"\n\n\n\n\n\n",
+			"BebasNeue",
+			"     ",
+			"\t",
+			"│\t│",
+			"\t",
+			"succes",
+			";\n",
+			"1",
+			"h6",
+			"p",
+			"ecosystem",
+			"ul-1",
+			"docs",
+			"inclu",
+			"1",
+			">\n",
+			"font",
+			"nav-list",
+			"nav-list ",
+			"class=\"light",
+			"light",
+			"class",
+			"light",
+			"/",
+			"light",
+			"h6",
+			"nav-link",
+			"class=\"nav-l",
+			"class=\"",
+			"; }",
+			"#",
+			"License",
+			"Ecosystem",
+			"C:/Bitnami/wampstack-8.0.3-1/apache2/htdocs",
+			"extension_dir",
+			"ext",
+			"C:/Bitnami/wampstack-8.0.3-1/apache2/htdocs"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/Coding/Project/yukood/resources/views/layouts/main.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 809.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "dev/base/_margin.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1285,
+								1285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 884.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "yukood-ui.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Coding\\Project\\yukood\\yukood.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

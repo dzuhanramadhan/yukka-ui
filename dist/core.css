@@ -12,8 +12,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@use "../variables";
 @use '../variables';
+@use 'margin';
 * {
   word-wrap: normal;
 }
@@ -30,45 +30,6 @@ body, html {
 .container {
   width: 70vw;
   margin: 0 auto;
-}
-
-hr {
-  margin: 35px 0;
-  height: 1px;
-  width: 100%;
-  background: #2B2B2B;
-  border-style: none;
-}
-
-a {
-  color: #787878;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #2B2B2B;
-  text-decoration: underline;
-}
-
-pre > code {
-  display: block;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border-radius: 5px;
-  overflow: scroll;
-}
-
-code {
-  background: #e4e4e4;
-  padding: 5px 10px;
-  display: inline-block;
-  font-family: Source Code Pro, monospace;
-  border: 1px solid #BEBEBE;
-  border-radius: 5px;
-  font-size: 14px;
-  margin: 2.5px;
-  color: #727272;
 }
 
 @use '../variables';
@@ -193,6 +154,95 @@ h6 {
 }
 
 @use "../variables";
+.row {
+  display: flex;
+  grid-gap: 25px;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+}
+
+.col-1 {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.col-3 {
+  flex: 3;
+}
+
+.col-4 {
+  flex: 4;
+}
+
+.col-5 {
+  flex: 5;
+}
+
+.col-6 {
+  flex: 6;
+}
+
+.col-7 {
+  flex: 7;
+}
+
+.col-8 {
+  flex: 8;
+}
+
+.col-9 {
+  flex: 9;
+}
+
+.col-10 {
+  flex: 10;
+}
+
+.col-11 {
+  flex: 11;
+}
+
+.col-12 {
+  flex: 12;
+}
+
+@media screen and (max-width: 785px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@use "../variables";
+hr {
+  margin: 35px 0;
+  height: 1px;
+  width: 100%;
+  background: #2B2B2B;
+  border-style: none;
+}
+
+br {
+  margin: 10px 0;
+  padding: 0;
+}
+
+@use "../variables";
+a {
+  color: #787878;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #2B2B2B;
+  text-decoration: underline;
+}
+
 @use "../variables";
 button, .btn {
   padding: 7px 14px;
@@ -491,18 +541,44 @@ textarea {
   box-sizing: border-box;
 }
 
-@use '../variables';
-ul {
+@use "../variables";
+pre > code {
+  display: block;
+  width: 100%;
   margin: 0;
   padding: 0;
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+code {
+  background: #e4e4e4;
+  padding: 5px 10px;
+  display: inline-block;
+  font-family: Source Code Pro, monospace;
+  border: 1px solid #BEBEBE;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 2.5px;
+  color: #727272;
+}
+
+@use '../variables';
+@use '../base/margin';
+ul {
+  margin: 0;
+  padding-left: 25px;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: -webkit-flex !important;
   display: flex !important;
 }
 
+li {
+  list-style: circle;
+}
+
 @use '../variables';
-@use "../variables";
 header {
   padding: 15px 0;
   letter-spacing: 1px;
@@ -520,6 +596,7 @@ header nav ul {
   display: -ms-flexbox !important;
   display: -webkit-flex !important;
   display: flex !important;
+  padding-left: 0;
   margin: auto 0;
 }
 
@@ -579,6 +656,7 @@ footer nav ul {
   display: -ms-flexbox !important;
   display: -webkit-flex !important;
   display: flex !important;
+  padding-left: 0;
   margin: auto 0;
 }
 
@@ -621,69 +699,4 @@ footer nav ul {
   margin-top: 0;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-@use "../variables";
-.row {
-  display: flex;
-  grid-gap: 25px;
-  flex-wrap: wrap;
-}
-
-.col {
-  flex: 1;
-}
-
-.col-1 {
-  flex: 1;
-}
-
-.col-2 {
-  flex: 2;
-}
-
-.col-3 {
-  flex: 3;
-}
-
-.col-4 {
-  flex: 4;
-}
-
-.col-5 {
-  flex: 5;
-}
-
-.col-6 {
-  flex: 6;
-}
-
-.col-7 {
-  flex: 7;
-}
-
-.col-8 {
-  flex: 8;
-}
-
-.col-9 {
-  flex: 9;
-}
-
-.col-10 {
-  flex: 10;
-}
-
-.col-11 {
-  flex: 11;
-}
-
-.col-12 {
-  flex: 12;
-}
-
-@media screen and (max-width: 785px) {
-  .row {
-    flex-direction: column;
-  }
 }
