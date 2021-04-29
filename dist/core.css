@@ -463,21 +463,6 @@ textarea {
   background: transparent;
 }
 
-input[type="text"]:placeholder,
-input[type="password"]:placeholder,
-input[type="number"]:placeholder,
-input[type="text"]:placeholder,
-input[type="email"]:placeholder,
-input[type="tel"]:placeholder,
-input[type="url"]:placeholder,
-input[type="search"]:placeholder,
-option:placeholder,
-select:placeholder,
-textarea[type="text"]:placeholder,
-textarea:placeholder {
-  color: #BEBEBE;
-}
-
 input[type="text"]:hover, input[type="text"]:focus,
 input[type="password"]:hover,
 input[type="password"]:focus,
@@ -579,19 +564,19 @@ li {
 }
 
 @use '../variables';
-header {
+header, .header {
   padding: 15px 0;
   letter-spacing: 1px;
 }
 
-header nav {
+header nav, .header nav {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: -webkit-flex !important;
   display: flex !important;
 }
 
-header nav ul {
+header nav ul, .header nav ul {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: -webkit-flex !important;
@@ -600,7 +585,7 @@ header nav ul {
   margin: auto 0;
 }
 
-header nav ul li {
+header nav ul li, .header nav ul li {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: -webkit-flex !important;
@@ -609,49 +594,45 @@ header nav ul li {
   margin-right: 20px;
 }
 
-header nav ul li:last-child {
+header nav ul li:nth-last-child(), .header nav ul li:nth-last-child() {
   margin-right: 0;
 }
 
-header nav ul li a {
+header nav ul li a, header nav ul li a:hover, .header nav ul li a, .header nav ul li a:hover {
   text-decoration: none !important;
 }
 
-header nav ul li a:hover {
-  text-decoration: none !important;
-}
-
-header nav div.contact, header nav div.social-media {
+header nav div.contact, header nav div.social-media, .header nav div.contact, .header nav div.social-media {
   box-sizing: border-box;
   margin: auto;
   margin-right: 0;
 }
 
-header nav div.contact a, header nav div.social-media a {
+header nav div.contact a, header nav div.social-media a, .header nav div.contact a, .header nav div.social-media a {
   text-decoration: none !important;
 }
 
-header nav div.contact a:hover, header nav div.social-media a:hover {
+header nav div.contact a:hover, header nav div.social-media a:hover, .header nav div.contact a:hover, .header nav div.social-media a:hover {
   text-decoration: none !important;
 }
 
-header nav ul li {
+header nav ul li, .header nav ul li {
   margin: auto 30px auto 0;
 }
 
-footer {
+footer, .footer {
   padding: 15px 0;
   letter-spacing: 1px;
 }
 
-footer nav {
+footer nav, .footer nav {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: -webkit-flex !important;
   display: flex !important;
 }
 
-footer nav ul {
+footer nav ul, .footer nav ul {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: -webkit-flex !important;
@@ -660,7 +641,7 @@ footer nav ul {
   margin: auto 0;
 }
 
-footer nav ul li {
+footer nav ul li, .footer nav ul li {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: -webkit-flex !important;
@@ -669,34 +650,36 @@ footer nav ul li {
   margin-right: 20px;
 }
 
-footer nav ul li:last-child {
+footer nav ul li:nth-last-child(), .footer nav ul li:nth-last-child() {
   margin-right: 0;
 }
 
-footer nav ul li a {
+footer nav ul li a, footer nav ul li a:hover, .footer nav ul li a, .footer nav ul li a:hover {
   text-decoration: none !important;
 }
 
-footer nav ul li a:hover {
-  text-decoration: none !important;
-}
-
-footer nav div.contact, footer nav div.social-media {
+footer nav div.contact, footer nav div.social-media, .footer nav div.contact, .footer nav div.social-media {
   box-sizing: border-box;
   margin: auto;
   margin-right: 0;
 }
 
-footer nav div.contact a, footer nav div.social-media a {
+footer nav div.contact a, footer nav div.social-media a, .footer nav div.contact a, .footer nav div.social-media a {
   text-decoration: none !important;
 }
 
-footer nav div.contact a:hover, footer nav div.social-media a:hover {
+footer nav div.contact a:hover, footer nav div.social-media a:hover, .footer nav div.contact a:hover, .footer nav div.social-media a:hover {
   text-decoration: none !important;
 }
 
-footer nav ul {
+footer nav ul, .footer nav ul {
   margin-top: 0;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 785px) {
+  header .container nav ul li:not(.logo) {
+    display: none;
+  }
 }

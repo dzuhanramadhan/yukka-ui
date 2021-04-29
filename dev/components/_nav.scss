@@ -14,14 +14,11 @@
 				@include flex();
 				list-style: none;
 				margin-right: 20px;
-				&:last-child {
+				&:nth-last-child() {
 					margin-right: 0;
 				}
-				a {
+				a, a:hover {
 					text-decoration: none !important;
-					&:hover {
-						text-decoration: none !important;
-					}
 				}
 			}
 		}
@@ -39,7 +36,7 @@
 	}
 }
 
-header {
+header, .header {
 	@include navbar();
 	nav {
 		ul {
@@ -51,13 +48,27 @@ header {
 
 }
 
-footer {
+footer, .footer {
 	@include navbar();
 	nav {
 		ul {
 			margin-top: 0;
 			flex-direction: column;
 			flex-wrap: wrap;
+		}
+	}
+}
+
+@media screen and (max-width: #{$bp-max-mobile}) {
+	header {
+		.container {
+			nav {
+				ul {
+					li:not(.logo) {
+						display: none;
+					}
+				}
+			}
 		}
 	}
 }

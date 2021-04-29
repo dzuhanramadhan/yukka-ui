@@ -54,11 +54,11 @@ $mp-xxxl: map-get($mp, 'xxxl') !default;
 
 // Breakpoint
 // ========================================
-$bp-min-mobile: "min-width: 450px";
-$bp-max-mobile: "max-width: 785px";
-$bp-min-tablet: "min-width: 786px";
-$bp-max-tablet: "max-width: 968px";
-$bp-min-laptop: "min-width: 980px";
-$bp-max-laptop: "max-width: 1120px";
-$bp-min-monitor: "min-width: 1125px";
-$bp-max-monitor: "max-width: 1300px";
+$bp-min-mobile: "450px";
+$bp-max-mobile: "785px";
+$bp-min-tablet: "786px";
+$bp-max-tablet: "968px";
+$bp-min-laptop: "980px";
+$bp-max-laptop: "1120px";
+$bp-min-monitor: "1125px";
+$bp-max-monitor: "1300px";

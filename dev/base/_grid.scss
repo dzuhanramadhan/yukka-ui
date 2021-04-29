@@ -59,7 +59,7 @@
 	flex:  12;
 }
 
-@media screen and (#{$bp-max-mobile}) {
+@media screen and (max-width: #{$bp-max-mobile}) {
 	.row {
 		flex-direction: column;
 	}

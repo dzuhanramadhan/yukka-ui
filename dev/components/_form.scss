@@ -27,9 +27,6 @@ textarea {
 	box-sizing: border-box;
 	padding: 10px;
 	background: transparent;
-	&:placeholder {
-		color: $gray;
-	}
 	&:hover, &:focus {
 		border-color: $dark;
 		outline: 0;
