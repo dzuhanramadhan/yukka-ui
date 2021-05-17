@@ -389,6 +389,11 @@ form {
   display: block;
 }
 
+label {
+  font-family: Poppins, sans-sherif;
+  font-size: 15px;
+}
+
 input[type="text"],
 input[type="password"],
 input[type="number"],
